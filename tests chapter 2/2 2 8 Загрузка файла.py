@@ -20,7 +20,7 @@ try:
     browser.find_element(By.NAME, 'lastname').send_keys('Balck')
     browser.find_element(By.NAME, 'email').send_keys('test@test')
 
-    browser.find_element(By.ID, 'file').send_keys(get_file_path('file.txt'))
+    browser.find_element(By.ID, 'file').send_keys(get_file_path('../file.txt'))
 
     browser.find_element(By.CSS_SELECTOR, '.btn').click()
 
